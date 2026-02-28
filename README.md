@@ -1,8 +1,18 @@
-# 📊 Basic EDA using NumPy and Pandas
+# 📊 Basic Exploratory Data Analysis using NumPy and Pandas
 
 ## 🚀 Project Overview
 This project demonstrates Exploratory Data Analysis (EDA) using Python libraries such as NumPy and Pandas.  
-The objective is to analyze, clean, and extract insights from structured datasets.
+Two datasets were imported directly from Google Drive using command-line download utilities and analyzed to extract statistical and structural insights.
+
+---
+
+## 📂 Datasets Used
+
+The datasets were downloaded using:
+
+```bash
+!gdown 1c0ClC8SrPwJq5rrkyMKyPn80nyHcFikK
+!wget "https://drive.google.com/uc?export=download&id=1E3bwvYGf1ig32RmcYiWc0IXPN-mD_bI_"
 
 ---
 
@@ -10,8 +20,9 @@ The objective is to analyze, clean, and extract insights from structured dataset
 - Python
 - NumPy
 - Pandas
-- Matplotlib
 - Jupyter Notebook
+- gdown
+- wget
 
 ---
 
@@ -19,7 +30,6 @@ The objective is to analyze, clean, and extract insights from structured dataset
 - Data Cleaning
 - Handling Missing Values
 - Statistical Summary
-- Correlation Analysis
 - Data Visualization
 - Feature Understanding
 
@@ -37,9 +47,6 @@ basic-eda-numpy-pandas/
 
 ## 📊 Sample Output
 Includes:
-- Mean, Median, Standard Deviation
-- DataFrame Info & Describe
-- Correlation Matrix
 - Basic Visualizations
 
 ---
@@ -52,9 +59,3 @@ Includes:
 
 ---
 
-## 💡 Future Improvements
-- Add Seaborn visualizations
-- Deploy as Streamlit Web App
-- Add real-world dataset analysis
-
----
